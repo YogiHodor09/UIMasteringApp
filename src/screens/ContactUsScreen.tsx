@@ -1,11 +1,11 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import AvatarLogo from "../assets/AvatarLogo";
-import BackButton from "./BackButton";
+import BackButton from "../components/BackButton";
 import { s, vs } from "react-native-size-matters";
-import SendButton from "./SendButton";
-import SocialIcon from "./SocialIcon";
-import SocialSection from "./SocialSection";
+import SendButton from "../components/SendButton";
+import SocialIcon from "../components/SocialIcon";
+import SocialSection from "../components/SocialSection";
 import { FontAwesome, FontAwesome5, AntDesign } from "@expo/vector-icons";
 import XLogo from "../assets/XLogo";
 
